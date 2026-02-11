@@ -24,7 +24,6 @@
             margin-top:20px;
             border-radius:10px;
             box-shadow:0px 0px 10px rgba(0,0,0,0.1);
-            text-align:center;
         }
         img{
             width:250px;
@@ -33,14 +32,23 @@
         }
         h2{
             color:#0a3d62;
-            text-align:left;
         }
         ul{
             line-height:1.8;
-            text-align:left;
         }
-        p{
-            text-align:left;
+        table{
+            width:100%;
+            border-collapse: collapse;
+            margin-top:15px;
+        }
+        th, td{
+            border:1px solid #0a3d62;
+            padding:10px;
+            text-align:center;
+        }
+        th{
+            background:#0a3d62;
+            color:white;
         }
         footer{
             text-align:center;
@@ -60,7 +68,9 @@
 
 <div class="container">
 
-    <img src="John-Cena.jpg" alt="John Cena">
+    <center>
+        <img src="John-Cena.jpg" alt="John Cena">
+    </center>
 
     <h2>Información General</h2>
     <p>
@@ -74,23 +84,182 @@
         <li><strong>Nombre completo:</strong> John Felix Anthony Cena, Jr.</li>
         <li><strong>Debut:</strong> 5 de noviembre de 1999</li>
         <li><strong>Padres:</strong> Carol Lupien y John Cena, Sr.</li>
-        <li><strong>Cónyuge:</strong> Elizabeth Huberdeau (2009–2012)</li>
         <li><strong>Alias:</strong> Thuganomics, The Prototype</li>
         <li><strong>Altura:</strong> 1,84 m</li>
     </ul>
 
-    <h2>Trayectoria</h2>
-    <p>
-        Cena se destacó rápidamente en la WWE gracias a su carisma,
-        fuerza física y habilidades en el micrófono. Su personaje
-        "Doctor of Thuganomics" lo convirtió en una estrella mundial
-        y posteriormente se consolidó como uno de los luchadores más
-        importantes de su generación.
-    </p>
+    <h2>Campeonatos en WWE</h2>
+
+    <table>
+        <tr>
+            <th>Campeonato</th>
+            <th>Reinados</th>
+            <th>Primer Reinado</th>
+            <th>Duración más larga</th>
+        </tr>
+        <tr>
+            <td>WWE Championship</td>
+            <td>10 veces</td>
+            <td>3 Abril 2005</td>
+            <td>380 días</td>
+        </tr>
+        <tr>
+            <td>World Heavyweight Championship</td>
+            <td>3 veces</td>
+            <td>7 Octubre 2007</td>
+            <td>87 días</td>
+        </tr>
+        <tr>
+            <td>United States Championship</td>
+            <td>5 veces</td>
+            <td>27 Marzo 2004</td>
+            <td>203 días</td>
+        </tr>
+        <tr>
+            <td>WWE Tag Team Championship</td>
+            <td>4 veces</td>
+            <td>2007</td>
+            <td>Varios reinados</td>
+        </tr>
+    </table>
+
 </div>
 
 <footer>
-    <p>Página creada con HTML - Biografía de John Cena</p>
+    Página creada con HTML y CSS | 2026
+</footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Biografía de John Cena</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color:#f4f6f8;
+            margin:0;
+            padding:0;
+        }
+        header{
+            background-color:#0a3d62;
+            color:white;
+            text-align:center;
+            padding:20px;
+        }
+        .container{
+            width:80%;
+            margin:auto;
+            background:white;
+            padding:20px;
+            margin-top:20px;
+            border-radius:10px;
+            box-shadow:0px 0px 10px rgba(0,0,0,0.1);
+        }
+        img{
+            width:250px;
+            border-radius:10px;
+            margin:15px 0;
+        }
+        h2{
+            color:#0a3d62;
+        }
+        ul{
+            line-height:1.8;
+        }
+        table{
+            width:100%;
+            border-collapse: collapse;
+            margin-top:15px;
+        }
+        th, td{
+            border:1px solid #0a3d62;
+            padding:10px;
+            text-align:center;
+        }
+        th{
+            background:#0a3d62;
+            color:white;
+        }
+        footer{
+            text-align:center;
+            padding:15px;
+            margin-top:20px;
+            background:#0a3d62;
+            color:white;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Biografía de John Cena</h1>
+    <p>Uno de los mejores luchadores de la WWE</p>
+</header>
+
+<div class="container">
+
+    <center>
+        <img src="John-Cena.jpg" alt="John Cena">
+    </center>
+
+    <h2>Información General</h2>
+    <p>
+        John Felix Anthony Cena, Jr. es considerado uno de los mejores luchadores
+        en la historia de la WWE. Además de su carrera en la lucha libre profesional,
+        también es actor y figura pública reconocida a nivel mundial.
+    </p>
+
+    <h2>Datos Personales</h2>
+    <ul>
+        <li><strong>Nombre completo:</strong> John Felix Anthony Cena, Jr.</li>
+        <li><strong>Debut:</strong> 5 de noviembre de 1999</li>
+        <li><strong>Padres:</strong> Carol Lupien y John Cena, Sr.</li>
+        <li><strong>Alias:</strong> Thuganomics, The Prototype</li>
+        <li><strong>Altura:</strong> 1,84 m</li>
+    </ul>
+
+    <h2>Campeonatos en WWE</h2>
+
+    <table>
+        <tr>
+            <th>Campeonato</th>
+            <th>Reinados</th>
+            <th>Primer Reinado</th>
+            <th>Duración más larga</th>
+        </tr>
+        <tr>
+            <td>WWE Championship</td>
+            <td>10 veces</td>
+            <td>3 Abril 2005</td>
+            <td>380 días</td>
+        </tr>
+        <tr>
+            <td>World Heavyweight Championship</td>
+            <td>3 veces</td>
+            <td>7 Octubre 2007</td>
+            <td>87 días</td>
+        </tr>
+        <tr>
+            <td>United States Championship</td>
+            <td>5 veces</td>
+            <td>27 Marzo 2004</td>
+            <td>203 días</td>
+        </tr>
+        <tr>
+            <td>WWE Tag Team Championship</td>
+            <td>4 veces</td>
+            <td>2007</td>
+            <td>Varios reinados</td>
+        </tr>
+    </table>
+
+</div>
+
+<footer>
+    Página creada con HTML y CSS | 2026
 </footer>
 
 </body>
